@@ -1,0 +1,60 @@
+body {background-color:#EFEFEF}
+
+/* Header */
+.head {display: flex;
+  align-items: center;
+  justify-content: center;}
+
+#image {flex-basis: 10%;padding-bottom: 0.5%;max-width:90%;}
+
+#text {font-size: 1vw;line-height: 0%;}
+
+hr {border: 1px solid;}
+#color {color: #c00630;}
+#title {font-family: 'Poppins', sans-serif;font-weight:500;}
+#title2 {font-family: 'Poppins', sans-serif;}
+#subtitle {font-family: 'Poppins', sans-serif;text-align: center;font-size: 3vw}
+p {font-family: 'Roboto', sans-serif;font-weight: 500}
+
+/* Navigation */
+body {margin: 0;font-family: 'Roboto', sans-serif;font-weight: 500;}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #2e3d6b;
+}
+
+ul.topnav li {overflow: hidden;background-color: #2e3d6b;float: left;}
+
+ul.topnav li a {float: left;display: flex;color: #efefef;text-align: center;padding: 14px 16px;text-decoration: none;font-size: 2vw;width: 100%;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #c4c4c4c4;color: #efefef;}
+
+ul.topnav li a.active {background-color: #242f5c;color: white;font-weight: 700;width: 100%}
+
+@media screen and (max-width: 600px) { 
+  ul.topnav li {float: none;}
+}
+/* Space */
+.space {width: 100%; height: 100%;color: #efefef; padding-bottom: 5px; padding-top: 5px;}
+
+/* Timetable */
+.con {background-color: #c4c4c4; width: 100%;border-style: solid; border-color:  #c4c4c4;border-width: thick;}
+#days {text-align: center;display: inline;font-family: 'Roboto', sans-serif;font-size: 2vw;}
+#days2 {display: inline;font-family: 'Roboto', sans-serif;font-weight:400;padding-left: 10px;font-size: 2vw;}
+.times {text-align: left;padding-left: 7px;font-size: 2vw;}
+#small {font-size: 2vw}
+
+/* Footer*/
+ .foot {padding-top: 2% ;
+  padding-bottom: 2%;
+  width: 100%;
+  background-color: #242f5c;
+  color: #242f5c;
+  text-align: center;
+}
+     
