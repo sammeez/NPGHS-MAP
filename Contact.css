@@ -31,6 +31,8 @@ select:not(:-internal-list-box) {
     overflow: visible !important;
 }
 
+#arrow {width: 70%;padding-left: 2%;}
+
 /* Header */
 .head {display: flex;
   align-items: center;
